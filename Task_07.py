@@ -56,3 +56,5 @@ sum_price = 0
 for dict in sales [search_result]:
     sum_price += dict['quantity'] * dict['price']
 print(f'{user_input} - {quantity} шт, стоимость {price} руб')
+
+# Отлично
