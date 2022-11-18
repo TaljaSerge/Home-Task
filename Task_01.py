@@ -11,7 +11,7 @@ my_favorite_songs = my_favorite_songs.split(",")
 print(f' Первая песня - {my_favorite_songs[0]}\n Последняя песня - {my_favorite_songs[-1]}\n Вторая песня - {my_favorite_songs[1]}\n Вторая песня c  конца- {my_favorite_songs[-2]}')
 
 
-
+# Отлично
 
 
 # Выведите на консоль с помощью индексации строки, последовательно: первый трек, последний, второй, второй с конца
