@@ -18,3 +18,5 @@ while i <= months-1:
     expenses *= 1.03
     i += 1
 print(f'Необходимо в долг взять {"{0:.2f}".format(debt)} рублей')
+
+# Отлично
