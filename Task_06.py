@@ -29,3 +29,12 @@ if V1!=V2!=V3:
     total_leng = V1 + V2 + V3
 
     print(f'Три песни звучат {"%.2f" % total_leng} минут')
+    
+#    Ну про неравенство хорошая мысль)
+# Также можно использовать sample
+time = 0
+for song in sample(tuple(my_favorite_songs), 3):
+    print(song)
+    time += my_favorite_songs[song]
+
+print(f'Три песни звучат {round(time, 2)}')
