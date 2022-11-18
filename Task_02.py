@@ -24,3 +24,5 @@ my_list =sum(City_list, [])
 my_filter = list(filter(lambda x: type(x) is int, my_list))
 
 print(f'Итого размер населения - {sum(my_filter)} человек')
+
+# Отлично!!!
